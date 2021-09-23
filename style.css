@@ -3,3 +3,28 @@ body {
     margin: 0;
     font-family: "Poppins", sans-serif;
 }
+
+.container{
+    margin: auto;
+    display: grid;
+}
+
+.container h1{
+    font-family: 'Playfair Display';
+    font-size: 48px;
+}
+
+
+.container__description--text{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.container--img{
+    width: fit-content;
+    height: fit-content;
+    max-width: 969px;
+    max-height: 470px;
+}
