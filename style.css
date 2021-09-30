@@ -4,6 +4,11 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+
 .container{
     margin: auto;
 }
@@ -19,7 +24,7 @@ body {
     display: flex;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
-    font-weight: bold;
+    font-weight: normal;
     align-items: flex-start;
     flex-direction: row;
 }
@@ -95,6 +100,27 @@ body {
     margin: 0;
     padding: 0;
     font-size: x-small;
+}
+
+.container__ingredient h2,
+.container__ingredient h3{
+    font-family: 'Playfair Display';
+}
+
+.cuadrado{
+    width: 20px;
+    height: 20px;
+    margin: 0 7px 0 2px;
+}
+
+.container__ingredient--steps{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container__ingredient--steps p{
+    margin: 0 0 5px 0;
 }
 
 @media only screen and (min-width: 600px) {
